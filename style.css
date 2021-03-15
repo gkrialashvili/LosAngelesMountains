@@ -202,8 +202,11 @@
   display: -ms-flexbox;
   display: flex;
   position: absolute;
-  right: 50%;
   bottom: -18px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
 }
 
 .climb-container {
