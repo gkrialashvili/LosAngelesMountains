@@ -290,6 +290,10 @@
   margin-top: 100px;
 }
 
+.title2 {
+  margin-left: 20px;
+}
+
 .footer {
   background-color: #414f6b;
 }
@@ -300,5 +304,46 @@
 
 .icon-blu {
   background-image: url(images/icon-b.png);
+}
+
+@media screen and (max-width: 726px) {
+  .mount {
+    font-size: 16px;
+    height: 23px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .title2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .title2 img {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .foot {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .history {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 492px) {
+  .mountain-nav {
+    max-width: 100%;
+  }
+  .mount {
+    max-width: 100%;
+    margin-right: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
